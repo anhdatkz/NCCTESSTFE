@@ -1,0 +1,14 @@
+/* Mobile width < 740px */
+@media screen  and (max-width: 46.1875em){
+    
+}
+
+/* Tablet min - width  740px  max width 1080 */
+@media screen  and (min-width: 46.1875em) and (max-width: 67.5em){
+
+}
+
+/* pc width > 1080px */
+@media screen  and (min-width: 67.6em){
+
+}

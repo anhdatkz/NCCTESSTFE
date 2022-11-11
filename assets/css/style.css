@@ -1,0 +1,143 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+body{
+   
+}
+
+#container{
+    position: relative;
+}
+
+
+/* SIDEBAR */
+
+.sidebar{
+    position: fixed;
+    left: 0;
+    width: 150px;
+    background-color: #191718;
+    height: 100%;
+}
+
+.sidebar > ul{
+    list-style-type: none;
+}
+
+.sidebar > ul > li{
+    height: 44px;
+    color: #aaa;
+    font-weight: 700;
+    padding-left: 16px;
+    line-height: 44px;
+    border-bottom:1px  solid #aaa;
+}
+.sidebar > ul > .active{
+    color: #fff;
+}
+
+.sidebar > ul > li:hover{
+    cursor: pointer;
+    background-color: #aaa;
+    color: #fff;
+}
+
+/* CONTENT */
+
+.content{
+    /* width: 1768px; */
+    width:calc(100% - 150px);
+    margin-left: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0 129px;
+    height: 100%;
+}
+
+.logo{
+    margin: 20px 0 30px 0;
+}
+
+.group1{
+    margin-bottom: 40px;
+    padding: 0 270px;
+    background-color: #EFEFEF;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+.group1-title{
+    font-size: 18px;
+    line-height: 22px;
+    font-weight: 700;
+    margin: 38px 0 18px 0;
+}
+
+.group1-content{
+    font-weight: 400;
+    text-align: center;
+    margin-bottom: 38px;
+    line-height: 19px;
+}
+
+.group2{
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+}
+
+.group2-item{
+    height: 252px;
+    overflow: hidden;
+    flex-basis: calc(100%/3);
+}
+
+.group2-item-title{
+    font-size: 24px;
+    line-height: 28px;
+    font-weight: 700;
+    margin-bottom: 18px;
+}
+
+.group2-item-content .item-img{
+    float: left;
+    margin-right: 16px;
+}
+
+.group2-item-content .item-content{
+    line-height: 19px;
+}
+
+/* FOOTER */
+
+.footer{
+    position: absolute;
+    background-color: #aaa;
+    margin-left: 150px;
+    height: 80px;
+    width: calc(100% - 150px);
+    display: flex;
+    align-items: center;
+    margin-top: 182px;
+    border-top: 1px solid #dedede;
+}
+
+.footer .copyright{
+    color: #3e3e3e;
+    font-weight: 400;
+    line-height: 19px;
+    margin: 0 129px;
+}
+
