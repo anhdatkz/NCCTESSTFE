@@ -1,3 +1,3 @@
 # NCCTESSTFE
-ncc-test-fe.vercel.app
+https://ncc-test-fe.vercel.app/
 
