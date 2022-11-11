@@ -1,2 +1,2 @@
 # NCCTESSTFE
-https://anhdatkz.github.io/NCC_TEST_FE/
+https://vercel.com/anhdatkz/ncc-test-fe
