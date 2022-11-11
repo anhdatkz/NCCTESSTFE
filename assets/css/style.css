@@ -131,7 +131,6 @@ body{
 /* FOOTER */
 
 .footer{
-    background-color: #aaa;
     margin-left: 150px;
     height: 80px;
     width: calc(100% - 150px);
